@@ -45,7 +45,6 @@ public class CreateCategoryUseCaseTests {
             .thenReturn(category);
         
         CreateCategoryInputData input = new CreateCategoryInputData(
-            category.getName(),
             category.getDescription(),
             category.getIsActive()
         );
